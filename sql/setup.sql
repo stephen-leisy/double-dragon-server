@@ -1,4 +1,4 @@
--- DROP TABLE IF EXISTS cocktails, mains, snacks, salads;
+DROP TABLE IF EXISTS cocktails, mains, snacks, salads;
 
 
 CREATE TABLE cocktails (
