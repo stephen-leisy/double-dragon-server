@@ -17,7 +17,7 @@ describe('cocktail routes', () => {
       cocktailName: 'Slammadamma 3',
       iconUrl: 'https://www.placecage.com/200/300',
       cocktailPrice: 12,
-      cocktailIngredients: 'its just chartreuse',
+      cocktailIngredients: 'its just chartreuse yo',
     };
 
     const newShit = await request(app)
@@ -29,7 +29,7 @@ describe('cocktail routes', () => {
       cocktailName: 'Slammadamma 3',
       iconUrl: 'https://www.placecage.com/200/300',
       cocktailPrice: 12,
-      cocktailIngredients: 'its just chartreuse',
+      cocktailIngredients: 'its just chartreuse yo',
     });
   });
 
