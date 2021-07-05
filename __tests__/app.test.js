@@ -14,7 +14,7 @@ describe('cocktail routes', () => {
 
   test('posts a new cocktail', async () => {
     const dansNewDrink = {
-      cocktailName: 'Slammadamma 2',
+      cocktailName: 'Slammadamma 4',
       iconUrl: 'https://www.placecage.com/200/300',
       cocktailPrice: 12,
       cocktailIngredients: 'its just chartreuse',
@@ -26,7 +26,7 @@ describe('cocktail routes', () => {
 
     expect(newShit.body).toEqual({
       id: '1',
-      cocktailName: 'Slammadamma 2',
+      cocktailName: 'Slammadamma 4',
       iconUrl: 'https://www.placecage.com/200/300',
       cocktailPrice: 12,
       cocktailIngredients: 'its just chartreuse',
